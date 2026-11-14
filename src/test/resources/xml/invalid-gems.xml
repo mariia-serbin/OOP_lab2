@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gem>
+    <gem id="invalid1">
+        <name>Broken Gem</name>
+        <preciousness>precious</preciousness>
+        <origin>Nowhere</origin>
+        <visualParameters>
+            <color>red</color>
+            <transparency>150</transparency>
+            <facetCount>20</facetCount>
+        </visualParameters>
+        <value>1.00</value>
+    </gem>
+</Gem>

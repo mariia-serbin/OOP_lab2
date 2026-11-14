@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gem>
+    <gem id="g1">
+        <name>Diamond</name>
+        <preciousness>precious</preciousness>
+        <origin>South Africa</origin>
+        <visualParameters>
+            <color>colorless</color>
+            <transparency>98</transparency>
+            <facetCount>12</facetCount>
+        </visualParameters>
+        <value>1.25</value>
+    </gem>
+    <gem id="g2">
+        <name>Ruby</name>
+        <preciousness>precious</preciousness>
+        <origin>Myanmar</origin>
+        <visualParameters>
+            <color>red</color>
+            <transparency>85</transparency>
+            <facetCount>9</facetCount>
+        </visualParameters>
+        <value>2.10</value>
+    </gem>
+    <gem id="g3">
+        <name>Sapphire</name>
+        <preciousness>precious</preciousness>
+        <origin>Sri Lanka</origin>
+        <visualParameters>
+            <color>blue</color>
+            <transparency>90</transparency>
+            <facetCount>10</facetCount>
+        </visualParameters>
+        <value>3.40</value>
+    </gem>
+    <gem id="g4">
+        <name>Emerald</name>
+        <preciousness>precious</preciousness>
+        <origin>Colombia</origin>
+        <visualParameters>
+            <color>green</color>
+            <transparency>75</transparency>
+            <facetCount>8</facetCount>
+        </visualParameters>
+        <value>1.80</value>
+    </gem>
+    <gem id="g5">
+        <name>Amethyst</name>
+        <preciousness>semiprecious</preciousness>
+        <origin>Brazil</origin>
+        <visualParameters>
+            <color>purple</color>
+            <transparency>70</transparency>
+            <facetCount>6</facetCount>
+        </visualParameters>
+        <value>5.50</value>
+    </gem>
+    <gem id="g6">
+        <name>Topaz</name>
+        <preciousness>semiprecious</preciousness>
+        <origin>Russia</origin>
+        <visualParameters>
+            <color>yellow</color>
+            <transparency>65</transparency>
+            <facetCount>8</facetCount>
+        </visualParameters>
+        <value>4.20</value>
+    </gem>
+    <gem id="g7">
+        <name>Garnet</name>
+        <preciousness>semiprecious</preciousness>
+        <origin>India</origin>
+        <visualParameters>
+            <color>red</color>
+            <transparency>60</transparency>
+            <facetCount>7</facetCount>
+        </visualParameters>
+        <value>3.00</value>
+    </gem>
+    <gem id="g8">
+        <name>Moonstone</name>
+        <preciousness>semiprecious</preciousness>
+        <origin>Sri Lanka</origin>
+        <visualParameters>
+            <color>white</color>
+            <transparency>50</transparency>
+            <facetCount>4</facetCount>
+        </visualParameters>
+        <value>2.75</value>
+    </gem>
+</Gem>
