@@ -18,7 +18,7 @@ final class GemBuilder {
     private BigDecimal value;
 
     void reset(String id) {
-        this.id = id;
+        this.id = clean(id);
         this.name = null;
         this.preciousness = null;
         this.origin = null;
@@ -29,7 +29,7 @@ final class GemBuilder {
     }
 
     void setId(String id) {
-        this.id = id;
+        this.id = clean(id);
     }
 
     void setName(String text) {
@@ -79,7 +79,7 @@ final class GemBuilder {
     }
 
     private void checkComplete() {
-        if (id == null || name == null || preciousness == null || origin == null
+        if (id == null || id.isBlank() || name == null || preciousness == null || origin == null
                 || color == null || transparency == null || facetCount == null || value == null) {
             throw new IllegalStateException("Gem element does not contain all required fields");
         }
